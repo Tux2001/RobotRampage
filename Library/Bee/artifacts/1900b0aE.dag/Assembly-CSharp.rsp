@@ -356,6 +356,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Scripts/AssaultRifle.cs"
 "Assets/Scripts/Constants.cs"
+"Assets/Scripts/GameUI.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/GunEquipper.cs"
 "Assets/Scripts/Pistol.cs"
