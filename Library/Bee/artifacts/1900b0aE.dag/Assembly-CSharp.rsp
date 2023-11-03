@@ -357,6 +357,7 @@
 "Assets/Scripts/Ammo.cs"
 "Assets/Scripts/AssaultRifle.cs"
 "Assets/Scripts/Constants.cs"
+"Assets/Scripts/Demo.cs"
 "Assets/Scripts/GameUI.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/GunEquipper.cs"
