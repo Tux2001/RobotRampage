@@ -65,4 +65,27 @@ public class Robot : MonoBehaviour
         
         robot.Play("Fire");
     }
+
+    public void TakeDamage(int amount)
+    {
+        if (isDead)
+        {
+            return;
+        }
+        health -= amount;
+
+        if(health <= 0)
+        {
+            isDead = true;
+            robot.Play("Die");
+            StartCoroutine("DestroyRobot");
+        }
+    }
+
+    //Adds a delay to allow RobotDeath animation to play
+    IEnumerator DestroyRobot()
+    {
+        yield return new WaitForSeconds(1.5f);
+        Destroy(gameObject);
+    }
 }

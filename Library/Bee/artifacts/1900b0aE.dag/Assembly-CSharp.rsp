@@ -363,6 +363,7 @@
 "Assets/Scripts/GunEquipper.cs"
 "Assets/Scripts/Missile.cs"
 "Assets/Scripts/Pistol.cs"
+"Assets/Scripts/Player.cs"
 "Assets/Scripts/Robot.cs"
 "Assets/Scripts/Shotgun.cs"
 -langversion:9.0
