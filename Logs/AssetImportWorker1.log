@@ -15,7 +15,7 @@ D:/School/Game312_GameEngine2/Projects/RobotRampage
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57317
+57233
 Successfully changed project path to: D:/School/Game312_GameEngine2/Projects/RobotRampage
 D:/School/Game312_GameEngine2/Projects/RobotRampage
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/School/Game312_GameEngine2/Projects/RobotRampage
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32352] Host "[IP] 172.22.240.1 [Port] 0 [Flags] 2 [Guid] 2305168438 [EditorId] 2305168438 [Version] 1048832 [Id] WindowsEditor(7,LINUS-9000) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [46248] Host "[IP] 172.22.240.1 [Port] 0 [Flags] 2 [Guid] 2934244487 [EditorId] 2934244487 [Version] 1048832 [Id] WindowsEditor(7,LINUS-9000) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [32352] Host "[IP] 172.22.240.1 [Port] 0 [Flags] 2 [Guid] 2305168438 [EditorId] 2305168438 [Version] 1048832 [Id] WindowsEditor(7,LINUS-9000) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [46248] Host "[IP] 172.22.240.1 [Port] 0 [Flags] 2 [Guid] 2934244487 [EditorId] 2934244487 [Version] 1048832 [Id] WindowsEditor(7,LINUS-9000) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 37.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.31f1 (3409e2af086f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/Resources/UnitySubsystems
@@ -68,77 +68,77 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004038 seconds.
+Registered in 0.005502 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.537 seconds
+- Completed reload, in  0.541 seconds
 Domain Reload Profiling:
-	ReloadAssembly (538ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (541ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (365ms)
-			LoadAssemblies (83ms)
+		EndReloadAssembly (367ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (94ms)
+			SetupTypeCache (102ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
+			RebuildScriptCaches (24ms)
 			SetupLoadedEditorAssemblies (207ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (34ms)
+				RefreshPlugins (38ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002405 seconds.
+Registered in 0.002463 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.288 seconds
+- Completed reload, in  1.270 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1288ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (1270ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1061ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1060ms)
 			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (181ms)
+			SetupTypeCache (167ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
+			RebuildScriptCaches (45ms)
 			SetupLoadedEditorAssemblies (754ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (562ms)
-				ProcessInitializeOnLoadMethodAttributes (121ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (556ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,13 +146,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (46.3 KB). Loaded Objects now: 2858.
+Unloading 2415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (46.4 KB). Loaded Objects now: 2859.
 Memory consumption went from 91.9 MB to 91.8 MB.
-Total: 6.296600 ms (FindLiveObjects: 0.249000 ms CreateObjectMapping: 0.069600 ms MarkObjects: 5.894600 ms  DeleteObjects: 0.081800 ms)
+Total: 6.592800 ms (FindLiveObjects: 0.308200 ms CreateObjectMapping: 0.065500 ms MarkObjects: 6.131500 ms  DeleteObjects: 0.086200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,110 +167,59 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 1075588.699460 seconds.
+  path: Assets/Animations/RobotRampage_BotBall_v1.controller
+  artifactKey: Guid(8dd7b4c8f05353747967e6bcbebf0545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animations/RobotRampage_BotBall_v1.controller using Guid(8dd7b4c8f05353747967e6bcbebf0545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511e6260a89b2a27acb62e350e253011') in 0.045526 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002448 seconds.
+Registered in 0.002408 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.440 seconds
+- Completed reload, in  1.466 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1440ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (1467ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1220ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1243ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (208ms)
+			SetupTypeCache (196ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (849ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (868ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (609ms)
-				ProcessInitializeOnLoadMethodAttributes (151ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (21.9 KB). Loaded Objects now: 2861.
-Memory consumption went from 91.5 MB to 91.4 MB.
-Total: 6.447500 ms (FindLiveObjects: 0.222500 ms CreateObjectMapping: 0.068300 ms MarkObjects: 6.111800 ms  DeleteObjects: 0.043900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002399 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.402 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1403ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1183ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (197ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (823ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (597ms)
-				ProcessInitializeOnLoadMethodAttributes (140ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (610ms)
+				ProcessInitializeOnLoadMethodAttributes (160ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (22.0 KB). Loaded Objects now: 2864.
-Memory consumption went from 91.5 MB to 91.4 MB.
-Total: 5.683200 ms (FindLiveObjects: 0.250800 ms CreateObjectMapping: 0.068200 ms MarkObjects: 5.328200 ms  DeleteObjects: 0.034700 ms)
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (21.9 KB). Loaded Objects now: 2863.
+Memory consumption went from 91.5 MB to 91.5 MB.
+Total: 6.202900 ms (FindLiveObjects: 0.447600 ms CreateObjectMapping: 0.083300 ms MarkObjects: 5.629400 ms  DeleteObjects: 0.041100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -286,213 +235,127 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 362414.910644 seconds.
-  path: Assets/Materials/Box.png
-  artifactKey: Guid(c87324f7bfbf049e49a76b0ab0f69000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 169.520674 seconds.
+  path: Assets/Materials/RobotRampage_Bot_TextureYellow.mat
+  artifactKey: Guid(c62aa3ad5ee0547eabb5dfc2a0af36f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/Box.png using Guid(c87324f7bfbf049e49a76b0ab0f69000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb79a3f3aa6a0ee676c2e1ea454cba8') in 0.140167 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Materials/reticleBlue.png
-  artifactKey: Guid(fa68d4d43ad9542fd84327ce6edcc434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/reticleBlue.png using Guid(fa68d4d43ad9542fd84327ce6edcc434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed57d3d44ea0146f218102ef2e470713') in 0.024741 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Materials/RobotRampage_Pickup_Ammo-Material__RobotRampage_Bot_Texture_psd.mat
-  artifactKey: Guid(d0c097ce106cbf54cbabd8da625e3518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/RobotRampage_Pickup_Ammo-Material__RobotRampage_Bot_Texture_psd.mat using Guid(d0c097ce106cbf54cbabd8da625e3518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc21a3738e8e2c32308957433642e51') in 0.063454 seconds 
+Start importing Assets/Materials/RobotRampage_Bot_TextureYellow.mat using Guid(c62aa3ad5ee0547eabb5dfc2a0af36f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970775a0a42c582651550c74682da650') in 0.117965 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Materials/RobotRampage_AssaultRifle-Material.mat
-  artifactKey: Guid(09a1a8d837784449e87a29a2cb9ded36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/RobotRampage_AssaultRifle-Material.mat using Guid(09a1a8d837784449e87a29a2cb9ded36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b276667c08f4a70eb37ad3aa9c775a') in 0.017532 seconds 
-Number of asset objects unloaded after import = 1
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002770 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.410 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1411ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1121ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (778ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (569ms)
+				ProcessInitializeOnLoadMethodAttributes (131ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (22.0 KB). Loaded Objects now: 2906.
+Memory consumption went from 95.6 MB to 95.6 MB.
+Total: 6.410000 ms (FindLiveObjects: 0.207000 ms CreateObjectMapping: 0.066000 ms MarkObjects: 6.098000 ms  DeleteObjects: 0.037900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Materials/RobotRampage_Pickup_Ammo-Material.mat
-  artifactKey: Guid(a35392580f3f2344280e4493d5c01911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/RobotRampage_Pickup_Ammo-Material.mat using Guid(a35392580f3f2344280e4493d5c01911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4f924780145f0c4f9d9d7322d65059') in 0.018491 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Materials/heavy_data.ttf
-  artifactKey: Guid(5d52dd308caf6a649b1ad0dbbbac37b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/heavy_data.ttf using Guid(5d52dd308caf6a649b1ad0dbbbac37b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd095ed785a71d0ea262cf0deaf0aab82') in 0.040087 seconds 
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Materials/RobotRampage_AssaultRifle-Material__RobotRampage_Bot_Texture_psd.mat
-  artifactKey: Guid(106c57e8b715046efa0019d9aee120f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/RobotRampage_AssaultRifle-Material__RobotRampage_Bot_Texture_psd.mat using Guid(106c57e8b715046efa0019d9aee120f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c31589201a506421a50fb67c20932e') in 0.017051 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Materials/Yellow.mat
-  artifactKey: Guid(a2d8e5b65dcd1f846aaf608ef27d4b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/Yellow.mat using Guid(a2d8e5b65dcd1f846aaf608ef27d4b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fa1d68ff8d9f87e0e7309289c33b3f') in 0.018332 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Materials/Main_Material.mat
-  artifactKey: Guid(59f19f2b3b0424574bcf156e2c6ec425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/Main_Material.mat using Guid(59f19f2b3b0424574bcf156e2c6ec425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c376fd7f0241e1e609ae27037ac667') in 0.016817 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Models/RobotRampage-Title.fbx
-  artifactKey: Guid(6de6767cda1394fb3993f33e149d8938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Models/RobotRampage-Title.fbx using Guid(6de6767cda1394fb3993f33e149d8938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e2796b7d3421525191e91d0aa03ffc') in 0.142576 seconds 
-Number of asset objects unloaded after import = 70
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models/RobotRampage_ParticleSmoke.blend
-  artifactKey: Guid(8745635dbac3a4f9a8c53624d16a3b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Models/RobotRampage_ParticleSmoke.blend using Guid(8745635dbac3a4f9a8c53624d16a3b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b1ca77436848ceee67c701cfad0b88') in 0.029517 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Models/RobotRampage_Pickup_Health.blend
-  artifactKey: Guid(6c43464943ca24aeda68fdd20b321b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Models/RobotRampage_Pickup_Health.blend using Guid(6c43464943ca24aeda68fdd20b321b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6051d3c26ee3323543010fd06c7e5860') in 0.064540 seconds 
-Number of asset objects unloaded after import = 36
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Models/RobotRampage_Shotgun.fbx
-  artifactKey: Guid(6f08686d23bef304a93c7f4af1e8f17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Models/RobotRampage_Shotgun.fbx using Guid(6f08686d23bef304a93c7f4af1e8f17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce3b8b30ebd045ceea4fe4d8234b02e') in 0.060928 seconds 
-Number of asset objects unloaded after import = 74
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Models/RobotRampage_AssaultRifle.fbx
-  artifactKey: Guid(a8dd7506f95e7d946a1030be85c479db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Models/RobotRampage_AssaultRifle.fbx using Guid(a8dd7506f95e7d946a1030be85c479db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d1e2fbe82064e7fbbed915afd5a664') in 0.062937 seconds 
-Number of asset objects unloaded after import = 79
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Materials/RobotRampage_Bot_Texture.mat
-  artifactKey: Guid(4ccd3e09db1b94e769fdb243fd44ab27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/RobotRampage_Bot_Texture.mat using Guid(4ccd3e09db1b94e769fdb243fd44ab27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842c7f134ca8996b9439a3e22a67f5d5') in 0.015499 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Models/RobotRampage_Bot_v1.fbx
-  artifactKey: Guid(fb900ac847b684cda925ff9b43688031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Models/RobotRampage_Bot_v1.fbx using Guid(fb900ac847b684cda925ff9b43688031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e284431f41ff4b66d07437e6e0732309') in 0.054653 seconds 
-Number of asset objects unloaded after import = 107
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Materials/Red.mat
-  artifactKey: Guid(5af3c5cdecf75c54b8145c1a7ee19aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/Red.mat using Guid(5af3c5cdecf75c54b8145c1a7ee19aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d9c01b59db4f910286e9d649d64b58') in 0.015979 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Materials/RobotRampage_Pickup_Ammo1-Material__RobotRampage_Bot_Texture_psd.mat
-  artifactKey: Guid(9b8450b8e9a2e43f5b9eac9fe61d3ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/RobotRampage_Pickup_Ammo1-Material__RobotRampage_Bot_Texture_psd.mat using Guid(9b8450b8e9a2e43f5b9eac9fe61d3ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2630f2877e908ed779ef04b0c1a8a07') in 0.017708 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Materials/RobotRampage_Shotgun-Material__RobotRampage_Bot_Texture_psd.mat
-  artifactKey: Guid(8232899ac3aaf4198b1e86d144850240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/RobotRampage_Shotgun-Material__RobotRampage_Bot_Texture_psd.mat using Guid(8232899ac3aaf4198b1e86d144850240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9cca30fd91e640b6b35957025171a5') in 0.018044 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Models/RobotRampage_Wall.blend
-  artifactKey: Guid(6955a90d383c1430686eabea7ea76478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Models/RobotRampage_Wall.blend using Guid(6955a90d383c1430686eabea7ea76478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bc65b7576db704c8c0170090cb3444') in 0.028015 seconds 
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 10.239318 seconds.
-  path: Assets/Resources/PickupAmmoPistol.prefab
-  artifactKey: Guid(940aaf910dbb38a48b630d4a7f743587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Resources/PickupAmmoPistol.prefab using Guid(940aaf910dbb38a48b630d4a7f743587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0daa248073a94ba94d19677db57977') in 0.021361 seconds 
-Number of asset objects unloaded after import = 74
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Resources/PickupHealth.prefab
-  artifactKey: Guid(f5e95b12a937f0d4995d12cf6a35495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Resources/PickupHealth.prefab using Guid(f5e95b12a937f0d4995d12cf6a35495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb495d468f795cbb439de2439d858db') in 0.015583 seconds 
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Resources/RobotMissileBlue.prefab
-  artifactKey: Guid(9976923b00f0fd34a98bc13985b75759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Resources/RobotMissileBlue.prefab using Guid(9976923b00f0fd34a98bc13985b75759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f955926a4a5368eea03e62d22830cf5') in 0.018193 seconds 
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Resources/RobotRampageTitle.prefab
-  artifactKey: Guid(3c3824acc2aa69f4b892c604ccf56166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Resources/RobotRampageTitle.prefab using Guid(3c3824acc2aa69f4b892c604ccf56166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a967acab97702c45d115d4a158412cc3') in 0.011733 seconds 
-Number of asset objects unloaded after import = 70
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Resources/Teleporter.prefab
-  artifactKey: Guid(ef92121b8b2e99d4480871066fe2ef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Resources/Teleporter.prefab using Guid(ef92121b8b2e99d4480871066fe2ef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed1d033170f1b6fbbce31632004296f') in 0.014129 seconds 
-Number of asset objects unloaded after import = 61
-========================================================================
-Received Import Request.
-  Time since last request: 14.932788 seconds.
-  path: Assets/Resources/PickupAmmoShotgun.prefab
-  artifactKey: Guid(f63c0b459fd76144792bca76fd75aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Resources/PickupAmmoShotgun.prefab using Guid(f63c0b459fd76144792bca76fd75aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2659a6df8e46ca5a8849951e23388de5') in 0.013817 seconds 
-Number of asset objects unloaded after import = 73
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002401 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.346 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1347ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1135ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (816ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (588ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (22.1 KB). Loaded Objects now: 2909.
+Memory consumption went from 95.6 MB to 95.6 MB.
+Total: 6.247400 ms (FindLiveObjects: 0.228400 ms CreateObjectMapping: 0.069100 ms MarkObjects: 5.915900 ms  DeleteObjects: 0.033000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
