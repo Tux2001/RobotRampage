@@ -362,6 +362,7 @@
 "Assets/Scripts/GameUI.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/GunEquipper.cs"
+"Assets/Scripts/Menu.cs"
 "Assets/Scripts/Missile.cs"
 "Assets/Scripts/Pickup.cs"
 "Assets/Scripts/PickupSpawn.cs"
