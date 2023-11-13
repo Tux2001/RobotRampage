@@ -356,6 +356,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Scripts/Ammo.cs"
 "Assets/Scripts/AssaultRifle.cs"
+"Assets/Scripts/BackgroundMusic.cs"
 "Assets/Scripts/Constants.cs"
 "Assets/Scripts/Demo.cs"
 "Assets/Scripts/Game.cs"
