@@ -358,6 +358,7 @@
 "Assets/Scripts/AssaultRifle.cs"
 "Assets/Scripts/Constants.cs"
 "Assets/Scripts/Demo.cs"
+"Assets/Scripts/Game.cs"
 "Assets/Scripts/GameUI.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/GunEquipper.cs"
@@ -367,6 +368,7 @@
 "Assets/Scripts/Pistol.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/Robot.cs"
+"Assets/Scripts/RobotSpawn.cs"
 "Assets/Scripts/Shotgun.cs"
 -langversion:9.0
 
