@@ -362,6 +362,7 @@
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/GunEquipper.cs"
 "Assets/Scripts/Missile.cs"
+"Assets/Scripts/Pickup.cs"
 "Assets/Scripts/Pistol.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/Robot.cs"
